@@ -28,9 +28,9 @@ header {
 }
 
 #logo {
-    
     display: flex;
     align-items: center;
+    margin-left: 24px
 }
 
 #logo p {
@@ -43,12 +43,13 @@ nav {
     height: 100%;
     column-gap: 8px;
     margin-right: 24px; 
-    background-color: #99FFFF;
+    /* background-color: #99FFFF; */
 }
 
 nav p {
     display: flex;
     height: 100%;
+    margin-left: 20px;
     background-color: white;
     align-items: center;
 }
@@ -80,9 +81,10 @@ nav p {
 }
 
 #startHere {
+    font-size: 1rem;
     background-color: #333333;
     color: white;
-    height: 30px;
+    height: 50px;
     width: 100%;
 }
 
@@ -197,13 +199,27 @@ footer {
     font-size: 0.8rem;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     height: 60px;
     border-top: #DCDCDC 1px solid;
+    padding: 0 24px;
 }
 
 footer div {
     display: flex;
     
+}
+
+footer div p {
+    margin-right: 10px;
+}
+
+#space {
+    height: 10px;
+}
+
+.linkOut {
+    color: blue;
 }
 
 footer div p {
