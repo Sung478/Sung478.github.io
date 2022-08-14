@@ -1,6 +1,6 @@
 @media only screen and (max-width: 768px){ 
     #logo {
-        display: flex;
+        display: none;
         align-items: center;
         width: 20%;
         color: transparent;
@@ -16,26 +16,32 @@
         display: none;
     }
     
-    #icon3{
-        display: none;
-    }
+
 
     #icon1{
-        background-image: url('./capstone_colmar_assets/images/ic-on-campus.svg');
+        background-image: url('./capstone_colmar_assets/images/ic-logo.svg');
         background-repeat: no-repeat;
+        background-position: center;
         
     }
 
     #icon2{
+        background-image: url('./capstone_colmar_assets/images/ic-on-campus.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        
+    }
+
+    #icon3{
         background-image: url('./capstone_colmar_assets/images/ic-online.svg');
         background-repeat: no-repeat;
-        
+        background-position: center;
     }
 
     #icon4{
         background-image: url('./capstone_colmar_assets/images/ic-login.svg');
         background-repeat: no-repeat;
-        
+        background-position: center;
     }
 
     nav {
@@ -164,10 +170,13 @@
     }
     
     .s3 div div {
-        text-align: left;
+        display: flex;
+        justify-content: start;
         width: 98%;
         margin: 8px;
         background-color: #DCDCDC;
+        min-height: 50px;
+        
     }
     
     .s3_image {
